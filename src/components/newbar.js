@@ -55,8 +55,8 @@ export class NewBar extends Component {
             </div>
             })}
             <div className="d-flex justify-content-between">
-            <button type="button" className="btn btn-dark" onClick={this.handlePreviousClick}>&larr; Previous </button>
-            <button type="button" className="btn btn-dark" onClick={this.handleNextClick}>Next &rarr;</button>
+            <button type="button" disabled={this.state.page<=1} className="btn btn-dark" onClick={this.handlePreviousClick}>&larr; Previous </button>
+            <button type="button"  className="btn btn-dark" onClick={this.handleNextClick}>Next &rarr;</button>
             </div>
         </div>
       </div>
