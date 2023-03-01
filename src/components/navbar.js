@@ -1,5 +1,4 @@
  import React, { Component } from 'react'
- import {a} from 'react-router-dom'
  
  export class navbar extends Component {
  
@@ -13,8 +12,8 @@
             <span className="navbar-toggler-icon"></span>
           </button>
           
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="d-flex justify-content-end"> 
+          <div className="collapse navbar-collapse"  id="navbarSupportedContent">
+          <div className="d-flex justify-content-end"> 
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             
             <li className="nav-item"> <a className="btn btn-light"    href="/">Home  </a></li>
@@ -47,6 +46,7 @@
      )
    }
  }
+ 
  
  export default navbar
  
